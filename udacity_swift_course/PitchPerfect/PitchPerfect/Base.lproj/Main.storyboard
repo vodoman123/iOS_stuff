@@ -116,35 +116,71 @@
                                     <action selector="slowSound:" destination="v4P-HK-G9n" eventType="touchUpInside" id="kG2-OW-Lnq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZI9-2y-UCH">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="Fast">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="260" y="104" width="100" height="100"/>
+                                </variation>
+                                <connections>
+                                    <action selector="fastSound:" destination="v4P-HK-G9n" eventType="touchUpInside" id="5z9-dr-Z4Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ox-02-53c">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="Stop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="175" y="530" width="50" height="50"/>
+                                </variation>
+                                <connections>
+                                    <action selector="stopSound:" destination="v4P-HK-G9n" eventType="touchUpInside" id="ryl-ZW-STr"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.38550170589999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="GFp-cl-Hxg" firstAttribute="leading" secondItem="YGN-6C-Jnj" secondAttribute="leadingMargin" constant="23" id="7i2-IT-txo"/>
                             <constraint firstItem="GFp-cl-Hxg" firstAttribute="top" secondItem="lol-cK-GTz" secondAttribute="bottom" constant="40" id="LYS-77-zLx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZI9-2y-UCH" secondAttribute="trailing" constant="15" id="r5p-yp-P4X">
+                                <variation key="widthClass=compact" constant="23"/>
+                            </constraint>
+                            <constraint firstItem="ZI9-2y-UCH" firstAttribute="top" secondItem="lol-cK-GTz" secondAttribute="bottom" constant="40" id="vKa-vJ-aoK"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="GFp-cl-Hxg"/>
+                                <exclude reference="ZI9-2y-UCH"/>
+                                <exclude reference="4Ox-02-53c"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="7i2-IT-txo"/>
                                 <exclude reference="LYS-77-zLx"/>
+                                <exclude reference="r5p-yp-P4X"/>
+                                <exclude reference="vKa-vJ-aoK"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="GFp-cl-Hxg"/>
+                                <include reference="ZI9-2y-UCH"/>
+                                <include reference="4Ox-02-53c"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="7i2-IT-txo"/>
                                 <include reference="LYS-77-zLx"/>
+                                <include reference="r5p-yp-P4X"/>
+                                <include reference="vKa-vJ-aoK"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yn7-KW-Dty" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1749" y="497"/>
+            <point key="canvasLocation" x="1920" y="497"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pmO-I6-qDw">
@@ -166,6 +202,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Fast" width="100" height="100"/>
         <image name="Microphone" width="100" height="100"/>
         <image name="Slow" width="100" height="100"/>
         <image name="Stop" width="50" height="50"/>
