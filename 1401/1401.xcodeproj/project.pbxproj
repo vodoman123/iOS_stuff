@@ -13,6 +13,10 @@
 		6AABB9321A36B1A700859DA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AABB9311A36B1A700859DA6 /* Images.xcassets */; };
 		6AABB9351A36B1A700859DA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AABB9331A36B1A700859DA6 /* LaunchScreen.xib */; };
 		6AABB9411A36B1A700859DA6 /* _401Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AABB9401A36B1A700859DA6 /* _401Tests.swift */; };
+		6AABB9521A36D00500859DA6 /* andreas_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6AABB9501A36D00500859DA6 /* andreas_quote.mp3 */; };
+		6AABB9531A36D00500859DA6 /* andrew_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6AABB9511A36D00500859DA6 /* andrew_quote.mp3 */; };
+		6AABB9551A36D00900859DA6 /* harsha_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6AABB9541A36D00900859DA6 /* harsha_quote.mp3 */; };
+		6AABB9571A36D01000859DA6 /* sam_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6AABB9561A36D01000859DA6 /* sam_quote.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +40,10 @@
 		6AABB93A1A36B1A700859DA6 /* 1401Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1401Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AABB93F1A36B1A700859DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AABB9401A36B1A700859DA6 /* _401Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _401Tests.swift; sourceTree = "<group>"; };
-		6AABB94C1A36CD8B00859DA6 /* sam_quote.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sam_quote.m4a; sourceTree = "<group>"; };
-		6AABB94D1A36CD9A00859DA6 /* harsha_quote.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = harsha_quote.m4a; sourceTree = "<group>"; };
-		6AABB94E1A36CDA600859DA6 /* andreas_quote.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = andreas_quote.m4a; sourceTree = "<group>"; };
-		6AABB94F1A36CDA600859DA6 /* andrew_quote.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = andrew_quote.m4a; sourceTree = "<group>"; };
+		6AABB9501A36D00500859DA6 /* andreas_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = andreas_quote.mp3; sourceTree = "<group>"; };
+		6AABB9511A36D00500859DA6 /* andrew_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = andrew_quote.mp3; sourceTree = "<group>"; };
+		6AABB9541A36D00900859DA6 /* harsha_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = harsha_quote.mp3; sourceTree = "<group>"; };
+		6AABB9561A36D01000859DA6 /* sam_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sam_quote.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +98,10 @@
 		6AABB9281A36B1A700859DA6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6AABB94E1A36CDA600859DA6 /* andreas_quote.m4a */,
-				6AABB94F1A36CDA600859DA6 /* andrew_quote.m4a */,
-				6AABB94D1A36CD9A00859DA6 /* harsha_quote.m4a */,
-				6AABB94C1A36CD8B00859DA6 /* sam_quote.m4a */,
+				6AABB9541A36D00900859DA6 /* harsha_quote.mp3 */,
+				6AABB9561A36D01000859DA6 /* sam_quote.mp3 */,
+				6AABB9501A36D00500859DA6 /* andreas_quote.mp3 */,
+				6AABB9511A36D00500859DA6 /* andrew_quote.mp3 */,
 				6AABB9291A36B1A700859DA6 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -200,9 +204,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AABB9571A36D01000859DA6 /* sam_quote.mp3 in Resources */,
 				6AABB9301A36B1A700859DA6 /* Main.storyboard in Resources */,
 				6AABB9351A36B1A700859DA6 /* LaunchScreen.xib in Resources */,
+				6AABB9521A36D00500859DA6 /* andreas_quote.mp3 in Resources */,
 				6AABB9321A36B1A700859DA6 /* Images.xcassets in Resources */,
+				6AABB9551A36D00900859DA6 /* harsha_quote.mp3 in Resources */,
+				6AABB9531A36D00500859DA6 /* andrew_quote.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

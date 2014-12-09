@@ -20,25 +20,25 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        if var harshaFilePath = NSBundle.mainBundle().pathForResource("harsha_quote", ofType: "m4a"){
+        if var harshaFilePath = NSBundle.mainBundle().pathForResource("harsha_quote", ofType: "mp3"){
             var harshaFilePathUrl = NSURL.fileURLWithPath(harshaFilePath)
             harshaAudioPlayer = AVAudioPlayer(contentsOfURL: harshaFilePathUrl, error: nil)
         }else{
             println("file path is empty")
         }
-        if var andreasFilePath = NSBundle.mainBundle().pathForResource("andreas_quote", ofType: "m4a"){
+        if var andreasFilePath = NSBundle.mainBundle().pathForResource("andreas_quote", ofType: "mp3"){
             var andreasFilePathUrl = NSURL.fileURLWithPath(andreasFilePath)
             andreasAudioPlayer = AVAudioPlayer(contentsOfURL: andreasFilePathUrl, error: nil)
         }else{
             println("file path is empty")
         }
-        if var andrewFilePath = NSBundle.mainBundle().pathForResource("andrew_quote", ofType: "m4a"){
+        if var andrewFilePath = NSBundle.mainBundle().pathForResource("andrew_quote", ofType: "mp3"){
             var andrewFilePathUrl = NSURL.fileURLWithPath(andrewFilePath)
             andrewAudioPlayer = AVAudioPlayer(contentsOfURL: andrewFilePathUrl, error: nil)
         }else{
             println("file path is empty")
         }
-        if var samFilePath = NSBundle.mainBundle().pathForResource("sam_quote", ofType: "m4a"){
+        if var samFilePath = NSBundle.mainBundle().pathForResource("sam_quote", ofType: "mp3"){
             var samFilePathUrl = NSURL.fileURLWithPath(samFilePath)
             samAudioPlayer = AVAudioPlayer(contentsOfURL: samFilePathUrl, error: nil)
         }else{
